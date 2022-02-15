@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    margin: 0px;
+}
+
+#form1 {
+    display: none;
+}
+
+.header {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 15vh;
+    font-size: 70px;
+}
+
+.toolbar {
+    display:grid;
+    border: 1px solid red;
+    height: 10vh;
+}
+
+#addBook {
+    width: 10vw;
+    height: 5vh;
+}
+
+
+
+

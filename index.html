@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "styles.css">
+</head>
+<body>
+    <div class="header">Library</div>
+    <div class="toolbar">
+        <button id="addBook">Add Book</button>
+    </div>
+    <form id ="form1" onsubmit="return false">
+        <ul>
+            <li>
+                <label for="booknumber">Book Number:</label>
+                <input type="number" name="booknumberField" id="booknumber">
+            </li>
+           <li>
+               <label for="title">Title:</label>
+               <input type="text" name="titleField" id="title">
+           </li>
+           <li>
+               <label for="author">Author:</label>
+               <input type="text" name="authorField" id="author">
+           </li>
+           <li>
+               <label for="pages">Pages:</label>
+               <input type="number" name="pagesField" id="pages">
+           </li>
+           <li>
+               <label for="read">Read</label>
+               <input type="radio" name="readField" id="read" value="Read">
+           </li>
+           <li>
+            <label for="unread">Unread</label>
+            <input type="radio" name="readField" id="unread" value="Unread">
+        </li>
+           <li class="button">
+               <button type="submit" id="btn1">Submit</button>
+           </li>
+        </ul>
+        
+    </form>
+
+    <div>
+        <button id="btn2">Update</button>
+        <div id="table"></div>
+    </div>
+
+    
+    Row Number:<input type="number" id="rowNumber" value="">
+    <button id="btn3">DeleteRow</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
